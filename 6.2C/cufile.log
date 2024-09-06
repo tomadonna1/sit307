@@ -1,0 +1,20 @@
+ 28-08-2024 09:11:22:741 [pid=1734 tid=1734] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 28-08-2024 09:11:22:741 [pid=1734 tid=1734] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 28-08-2024 09:11:22:741 [pid=1734 tid=1734] WARN   0:172 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 28-08-2024 09:11:22:742 [pid=1734 tid=1734] NOTICE  cufio-drv:705 running in compatible mode
+ 28-08-2024 09:11:22:742 [pid=1734 tid=1734] ERROR  cufio-plat:101 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 28-08-2024 09:11:22:742 [pid=1734 tid=1734] WARN   cufio-plat:429 GPU index 0 NVIDIA GeForce RTX 3090: Model Not Supported
+ 28-08-2024 09:11:22:743 [pid=1734 tid=1734] WARN   cufio-udev:165 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 28-08-2024 09:11:22:788 [pid=1734 tid=1734] ERROR  cufio-topo-udev:431 no device entries present in platform topology
+ 28-08-2024 11:27:39:497 [pid=2684 tid=2684] ERROR  0:140 unable to load,  liburcu-bp.so.6 
+
+ 28-08-2024 11:27:39:497 [pid=2684 tid=2684] ERROR  0:140 unable to load,  liburcu-bp.so.1 
+
+ 28-08-2024 11:27:39:498 [pid=2684 tid=2684] WARN   0:168 failed to open /proc/driver/nvidia-fs/devcount  error: No such file or directory
+ 28-08-2024 11:27:39:498 [pid=2684 tid=2684] NOTICE  cufio-drv:727 running in compatible mode
+ 28-08-2024 11:27:39:499 [pid=2684 tid=2684] ERROR  cufio-plat:98 cannot open path /sys/bus/pci/devices/0000:01:00.0/resource No such file or directory
+ 28-08-2024 11:27:39:499 [pid=2684 tid=2684] WARN   cufio-plat:431 GPU index 0 NVIDIA GeForce RTX 3090: Model Not Supported
+ 28-08-2024 11:27:39:499 [pid=2684 tid=2684] WARN   cufio-udev:168 failed in udev device create: /sys/bus/pci/devices/0000:01:00.0
+ 28-08-2024 11:27:39:557 [pid=2684 tid=2684] ERROR  cufio-topo-udev:431 no device entries present in platform topology
